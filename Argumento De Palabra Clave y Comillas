@@ -1,0 +1,17 @@
+#La cadena que se imprime esta delimitada por ""
+#¿qué sucede cuando quiero que se impriman dichas comillas?
+
+#Existen dos formas de resolver esto:
+
+#1: Se utiliza comillas simples (') para delimitar la cadena
+#con lo cual las comillas (") ingresan como un texto.
+#Se puede enviar todo en un mismo argumento
+print('"Estoy"\n""aprendiendo""\n"""Python"""')
+print()
+
+#2: Enviando todo en distintos argumentos
+#Se utiliza el argumento de palabra clave 'sep=' y selo iguala a nada ('')
+#Esto evita que luego de ir a una nueva linea exista un espacio entre las ultimas comillas y el texto del nuevo argumento.
+print('"Estoy"\n"','"aprendiendo""\n""','"Python"""', sep='')
+
+#Guillermo A. Pallero
