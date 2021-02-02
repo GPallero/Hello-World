@@ -1,17 +1,13 @@
-#La cadena que se imprime esta delimitada por ""
-#¿qué sucede cuando quiero que se impriman dichas comillas?
+# Para imprimir una cadena de caracteres utilizamos (") o (') para encerrar dicha cadena.
+# Si queremos que una(s) (") o una(s) (') sean impresas como parte de nuestra cadena tenemos dos formas de hacerlo:
 
-#Existen dos formas de resolver esto:
+# 1- Utilizamos como delimitador el tipo de comilla que no queremos que sea parte de nuestra cadena, de esta forma el otro tipo de comilla sera impreso como parte del texto.
 
-#1: Se utiliza comillas simples (') para delimitar la cadena
-#con lo cual las comillas (") ingresan como un texto.
-#Se puede enviar todo en un mismo argumento
 print('"Estoy"\n""aprendiendo""\n"""Python"""')
 print()
 
-#2: Enviando todo en distintos argumentos
-#Se utiliza el argumento de palabra clave 'sep=' y selo iguala a nada ('')
-#Esto evita que luego de ir a una nueva linea exista un espacio entre las ultimas comillas y el texto del nuevo argumento.
-print('"Estoy"\n"','"aprendiendo""\n""','"Python"""', sep='')
+#2- Utilizando el caracter de escape para indicar que el siguiente caracter debe ser tenido en cuenta como tal, en nuestro caso (") o (')
+
+print("\"Estoy aprendiendo Python\"")
 
 #Guillermo A. Pallero
