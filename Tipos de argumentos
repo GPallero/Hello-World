@@ -19,5 +19,8 @@ print("Hola", "Mundo", end=" n.n", sep= "    ")
 out:
 Hola    Mundo n.n
 
+# Los argumentos de palabra clave tienen un comportamiento por defecto por lo cual pueden ser omitidos. 
+# El comportamiento por defecto de la función 'print()' refleja la situación en la cual el argumento de palabra clave 'end' es usado de la siguiente forma: end="\n" 
+
 # Guillermo A. Pallero
 # 03/02/2021
