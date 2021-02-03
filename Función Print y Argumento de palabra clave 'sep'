@@ -1,0 +1,13 @@
+# Mencione antes que la función 'print()' tiene dos argumentos de palabra clave: 'end' y 'sep'.
+
+# El comportamiento de 'sep' tambien puede ser cambiado.
+
+print("Mi", "nombre", "es", "Guillermo", ".", sep="-")
+
+out:
+Mi-nombre-es-Guillermo-.
+
+# La función 'print()' ahora utiliza un guión para separar cada argumento que imprime.
+
+# Guillermo A. Pallero
+# 03/02/2021
