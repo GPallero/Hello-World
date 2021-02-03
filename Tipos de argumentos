@@ -1,0 +1,23 @@
+# Argumentos posicionales y argumentos de palabra clave
+# Existen dos formas de pasarle argumentos a una función:
+# La primera es de forma posicional, esto es, el orden en el que llegaran los argumentos a la función es el mismo orden en el que escribimos los argumentos:
+
+print("Hola", "mundo")
+out:
+Hola mundo
+
+# La otra forma es pasar un argumento por palabra clave. En el caso de la función 'print()' tenemos dos posibles argumentos de palabra clave 'end' y 'sep'
+
+# Un argumento de palabra clave consiste de tres elementos: 
+# - Una palabra clave que identifica el argumento: en este caso 'end' o 'sep'
+# - Un signo igual ('=')
+# - Por último un valor asignado a dicho argumento
+
+# Nota: Los argumentos de palabra clave siempre van luego del último argumento posicional. Observa:
+
+print("Hola", "Mundo", end=" n.n", sep= "    ")
+out:
+Hola    Mundo n.n
+
+# Guillermo A. Pallero
+# 03/02/2021
