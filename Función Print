@@ -1,0 +1,15 @@
+# La función print() puede recibir multiples argumentos, sin embargo no espera ninguno, la función print() sin ningún argumento equivale al carácter de nueva linea ('\n')
+
+# Distintos modos de utilizar print y obtener el mismo mensaje:
+
+# Un único argumento:
+print("Hola! estoy aprendiendo Python")
+
+# Multiples argumentos:
+print("Hola!", "estoy", "aprendiendo", "Python")
+
+# Varias cadenas concatenadas:
+print("Hola!" + "estoy" + "aprendiendo" + "Python")
+
+# Guillermo A. Pallero
+# 02/02/2021
