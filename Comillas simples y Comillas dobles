@@ -6,7 +6,7 @@
 print('"Estoy"\n""aprendiendo""\n"""Python"""')
 print()
 
-#2- Utilizando el caracter de escape para indicar que el siguiente caracter debe ser tenido en cuenta como tal, en nuestro caso (") o (')
+# 2- Utilizando el caracter de escape para indicar que el siguiente caracter debe ser tenido en cuenta como tal, en nuestro caso (") o (')
 
 print("\"Estoy aprendiendo Python\"")
 
