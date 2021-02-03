@@ -1,0 +1,12 @@
+# El punto decimal es esencial para reconocer números en Python.
+# 4 y 4.0 pueden parecer iguales pero Python los ve en forma completamente diferente.
+# El putno es lo que hace a un flotante.
+
+# Tambien puedes utilizar notación cientifica, tomemos por ejemplo la velocidad de la luz, 300000000 (escrita directamente) para evitar escribir tantos ceros podemos abreviar
+# 3 x 10^8. En Python el mismo efecto puede lograrse de manera un poco diferente: 3E8 (la letra 'E' o 'e' viene de la palabra exponente)
+
+# Nota: el exponente DEBE ser un entero
+# Nota: la base puede ser un entero
+
+# Guillermo A. Pallero
+# 03/02/2021
