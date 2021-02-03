@@ -1,0 +1,20 @@
+# Python reconoce los números enteros de manera similar a la que lo hacemos nosotros pero existe una condición, no debes intercalar ningún caracter que no sea digito dentro del número.
+
+# Si tomamos como ejemplo el número once millones ciento once mil ciento once podemos escribirlo 11.111.111 o 11,111,111 o 11 111 111. Esta claro que de esta forma es más fácil de leer.
+# Sin embargo Python no acepta estas formas, esta prohibido. Lo que Python permite son guiones bajos, por lo que podemos escribir de la siguiente forma: 11111111 o 11_111_111
+
+# Ejemplo:
+
+print(11111111)
+print(11_111_111)
+
+out:
+11111111
+11111111
+
+# Para escribir números negativos, lo hacemos como lo haríamos usualmente, con un '-' (signo menos) por delante.
+
+print(-11111111)
+
+out: 
+11111111
