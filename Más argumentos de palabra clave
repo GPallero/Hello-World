@@ -1,0 +1,13 @@
+# Continuando con la forma en que trabajan los argumentos de palabra clave
+# Si asignamos nada como valor al argumento de palabra clave 'end' la función 'print()' imprimira nada en su lugar:
+
+print("Hola mundo ", end="")
+print("soy Guillermo.")
+
+out:
+"Hola mundo soy Guillermo."
+
+# Ninguna nueva línea fue enviada a la salida.
+
+# Guillermo A. Pallero
+# 03/02/2021
