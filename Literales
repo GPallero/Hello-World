@@ -1,0 +1,16 @@
+# Literales y los datos en si mismos.
+
+# Un literal es un dato cuyo valor esta determinado por si mismo. Por ejemplo: 1 es un literal y "c" no lo es ("c" puede ser cualquier cosa)
+
+# Si utilizamos la función 'print()'
+
+print("2")
+print(2)
+
+out:
+2
+2
+
+# Al ejecutar las dos funciones, nuestros ojos vencontraran dos tipos diferentes de literales (aunque se vean exactamente igual). 
+# Una cadena (las cuales ya conocemos) y un número entero que es algo completamente nuevo.
+# La función 'print()' los presenta exactamente igual pero internamente estos valores son almacenados de formas distintas.
