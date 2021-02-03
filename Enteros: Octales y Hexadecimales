@@ -1,0 +1,13 @@
+# Existen dos convenciones en Python que nos permiten utilizar respectivamente números en sistema octal (base 8) y números en sistema hexadecimal (base 16).
+
+# La primera es precediendo al número entero con un '0O' o '0o' (Cero-o), de esta manera el valor sera tratado como octal.
+
+print(0o10)
+out:
+8
+
+# La segunda es precediendo al número entero con un '0X' o '0x' (Cero-x), de esta manera el valor sera tratado como hexadecimal.
+
+print(0x10)
+out:
+16
