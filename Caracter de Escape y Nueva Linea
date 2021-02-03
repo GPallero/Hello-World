@@ -1,4 +1,4 @@
-#Uso de caracter de escape "\" y de nueva linea "n"
+# Uso de caracter de escape "\" y de nueva linea "n"
 
 print("Witsi Witsi Araña \nsubio a su telaraña\n")
 
