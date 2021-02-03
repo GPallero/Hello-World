@@ -1,0 +1,15 @@
+# Números que tienen (o pueden tener) una parte fraccional luego del punto decimal (aunque es una definición pobre, es suficiente)
+
+# Siempre que mencionemos números como un medio (0.5), un cuarto (0.25), dos tercios (0.66), son números que la computadora considera como números de punto flotante.
+
+# Recuerda que Python no permite las comas (,) para esto.
+
+# Los números punto flotante pueden escribirse con un punto (.) separando la parte entera de la parte decimal.
+
+print(4.5)
+Out:
+4.5
+
+# Guillermo A. Pallero
+# 03/02/2021
+
